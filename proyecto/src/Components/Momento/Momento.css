@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.tituloMomento {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  font-size: 50px;
+  padding: 10px;
+}
+
+.voces {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5px;
+  margin-top: 5px;
+}
+.voz {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.voces :hover {
+  background-color: yellow;
+}
+
+.linkPerfil {
+  text-decoration: none;
+  color: black;
+  font-size: 40px;
+}
+.linkPerfil:hover {
+  text-decoration: none;
+  color: black;
+  text-shadow: 2px 2px 2px rgb(184, 182, 182);
+}
+
+.sil {
+  background-color: rgb(117, 223, 113);
+}
+.eli {
+  background-color: rgb(238, 124, 223);
+}
+.alvaro {
+  background-color: rgb(4, 195, 243);
+}
+
+.contenidoCarrusel1 {
+  overflow: scroll;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(4, 195, 243);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenidoCarrusel2 {
+  overflow: scroll;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(238, 124, 223);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenidoCarrusel3 {
+  overflow: scroll;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(117, 223, 113);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenidoSlide {
+  padding: 20px;
+  font-size: 30px;
+  width: 70%;
+  overflow: scroll;
+}

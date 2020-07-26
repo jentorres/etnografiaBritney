@@ -1,0 +1,28 @@
+.titulo1 {
+  font-family: "Staatliches", sans-serif;
+}
+
+.titulo2 {
+  font-family: "Big Shoulders Text", sans-serif;
+}
+
+.titulo3 {
+  font-family: "Economica", sans-serif;
+}
+
+.parrafo {
+  font-family: "Montserrat", sans-serif;
+}
+
+.botonVolver {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  background: yellow;
+  color: black;
+  width: 250px;
+  height: 50px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 20px;
+}

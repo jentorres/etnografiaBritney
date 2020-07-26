@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.preguntaOrden {
+  text-align: center;
+  background-color: yellow;
+  padding: 40px;
+  font-size: 25px;
+}
+.gridOrden {
+  padding: 20px;
+  padding-left: 40px;
+  display: grid;
+  width: 100%;
+  height: 70vh;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 25px;
+}
+.momentoOrden {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 0, 0.253);
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.momentoOrden:hover {
+  background-color: yellow;
+}
+
+.linkMomentoO {
+  text-decoration: none;
+  text-align: center;
+  font-size: 50px;
+  color: black;
+}
+
+.linkMomento {
+  text-decoration: none;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+.gridDesorden {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 45px;
+  height: 90vh;
+}
+.momentoDesorden {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.momentoDesorden:hover {
+  text-decoration: none;
+  background-color: yellow;
+  list-style: none;
+}
+
+.rosa {
+  background-color: rgb(238, 124, 223);
+}
+.verde {
+  background-color: rgb(117, 223, 113);
+}
+.azul {
+  background-color: rgb(4, 195, 243);
+}
+.monen1 {
+  grid-row: 3;
+  grid-column: 3;
+  animation-name: fondoDesorden1;
+  animation-duration: 10s;
+  animation-iteration-count: 1000;
+}
+.monen2 {
+  grid-row: 2;
+  grid-column: 5;
+  animation-name: fondoDesorden2;
+  animation-duration: 10s;
+  animation-iteration-count: 1000;
+}
+.momen3 {
+  grid-row: 1;
+  grid-column: 1;
+  animation-name: fondoDesorden3;
+  animation-duration: 10s;
+  animation-iteration-count: 1000;
+}
+.momen4 {
+  grid-row: 3;
+  grid-column: 6;
+  animation-name: fondoDesorden1;
+  animation-duration: 10s;
+  animation-iteration-count: 1000;
+}
+.momen5 {
+  grid-row: 3;
+  grid-column: 1;
+  animation-name: fondoDesorden2;
+  animation-duration: 10s;
+  animation-iteration-count: 1000;
+}
+.momen6 {
+  grid-row: 3;
+  grid-column: 4;
+  animation-name: fondoDesorden3;
+  animation-duration: 10s;
+  animation-iteration-count: 1000;
+}
+.momen7 {
+  grid-row: 2;
+  grid-column: 3;
+  animation-name: fondoDesorden2;
+  animation-duration: 10s;
+  animation-iteration-count: 1000;
+}
+.momen8 {
+  grid-row: 2;
+  grid-column: 1;
+  animation-name: fondoDesorden1;
+  animation-duration: 10s;
+  animation-iteration-count: 1000;
+}
+.momen9 {
+  grid-row: 1;
+  grid-column: 6;
+  animation-name: fondoDesorden3;
+  animation-duration: 10s;
+  animation-iteration-count: 1000;
+}
+.momen10 {
+  grid-row: 1;
+  grid-column: 2;
+  animation-name: fondoDesorden1;
+  animation-duration: 10s;
+  animation-iteration-count: 1000;
+}
+
+.tituloDesorden {
+  font-family: "Big Shoulders Text", sans-serif;
+}
+
+@keyframes fondoDesorden1 {
+  0% {
+    background-color: white;
+  }
+
+  25% {
+    background-color: white;
+  }
+
+  50% {
+    background-color: rgb(238, 124, 223);
+  }
+  75% {
+    background-color: white;
+  }
+  100% {
+    background-color: white;
+  }
+}
+
+@keyframes fondoDesorden2 {
+  0% {
+    background-color: white;
+  }
+
+  25% {
+    background-color: rgb(117, 223, 113);
+  }
+
+  50% {
+    background-color: white;
+  }
+  75% {
+    background-color: white;
+  }
+  100% {
+    background-color: white;
+  }
+}
+
+@keyframes fondoDesorden3 {
+  0% {
+    background-color: white;
+  }
+
+  25% {
+    background-color: white;
+  }
+
+  50% {
+    background-color: white;
+  }
+  75% {
+    background-color: rgb(4, 195, 243);
+  }
+  100% {
+    background-color: white;
+  }
+}
+
+.tituloOrden {
+  margin: 10px;
+  font-size: 30px;
+}
+
+.tituloGeneral {
+  display: flex;
+  background: black;
+  color: white;
+  height: 100vh;
+  font-size: 70px;
+  text-align: center;
+  padding: 10px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.cajaTitulo {
+  padding: 10px;
+  animation-name: fondoWarning;
+  animation-duration: 2s;
+  animation-iteration-count: 100;
+  border-radius: 0px;
+}
+/* The animation code */
+@keyframes fondoWarning {
+  0% {
+    background-color: yellow;
+    color: black;
+  }
+  25% {
+    background-color: black;
+    color: white;
+  }
+  50% {
+    background-color: yellow;
+    color: black;
+  }
+
+  75% {
+    background-color: black;
+    color: white;
+  }
+
+  100% {
+    background-color: yellow;
+    color: black;
+  }
+}
+
+.videos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}

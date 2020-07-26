@@ -1,0 +1,87 @@
+.Perfil {
+  display: grid;
+  grid-template-rows: 20% 80%;
+  grid-template-columns: 100%;
+  justify-items: left;
+  width: 100vw;
+  height: 100vh;
+  margin: 50px;
+}
+
+.fotoPerfil {
+  width: 200px;
+  height: 200px;
+  background: gray;
+  border-radius: 50px;
+  margin-top: -100px;
+}
+
+.nombrePerfil {
+  font-size: 70px;
+  margin-left: 100px;
+  margin-top: -30px;
+}
+
+.contenidoPerfil {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-row-start: 2;
+}
+
+.panelIzquierdaPerfil {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  height: 60vh;
+  grid-template-rows: 3fr 1fr 2fr 1fr;
+}
+
+.botonFotoPerfil {
+  border-radius: 2px;
+  background: rgb(16, 143, 172);
+  color: white;
+  height: 30px;
+  width: 150px;
+  font-family: Poppins, sans-serif;
+  border-style: none;
+  font-size: 14px;
+  margin: 20px;
+}
+
+.botonFotoPerfil:hover {
+  background: rgb(255, 196, 0);
+  color: black;
+}
+
+.panelDerechaPerfil {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 80px 80px 80px 80px;
+  margin-left: 0px;
+}
+
+.apodoPerfil {
+  display: grid;
+  font-size: 40px;
+  justify-content: left;
+  color: rgb(173, 175, 30);
+}
+
+.perfilProfesionalPerfil {
+  display: grid;
+  font-size: 22px;
+  justify-content: left;
+  line-height: 25px;
+  text-align: justify;
+  margin-right: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.poderes {
+  font-size: 40px;
+}
