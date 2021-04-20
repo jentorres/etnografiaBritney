@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>INST:0032 Assessed work</title>
+            <respStmt>
+               <resp>Marked by</resp>
+               <name>SRN: 20152665</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p> Delivered on April 2021</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head> Corpus</head>
+               <bibl xml:id="carlylesHouseBibl">
+                  <title> Carlyle's House </title>
+                  <author>Virginia Woolf</author>
+                  <date when="1909-02">February 1909</date>
+                  <publisher>Hesperus Press Limited</publisher>
+                  <biblScope unit="page" from="3" to="4"/>
+               </bibl>
+               <bibl xml:id="missReevesBibl">
+                  <title> Miss Reeves</title>
+                  <author>Virginia Woolf</author>
+                  <date when="1909-02">February 1909</date>
+                  <publisher>Hesperus Press Limited</publisher>
+                  <biblScope unit="page" from="5" to="5"/>
+               </bibl>
+               <bibl xml:id="hampsteadBibl">
+                  <title> Hampstead </title>
+                  <author>Virginia Woolf</author>
+                  <date when="1909-03">March 1909</date>
+                  <publisher>Hesperus Press Limited</publisher>
+                  <biblScope unit="page" from="10" to="11"/>
+               </bibl>
+               <bibl xml:id="aModernSalonBibl">
+                  <title> A Modern Salon </title>
+                  <author>Virginia Woolf</author>
+                  <date when="1909-03">March 1909</date>
+                  <publisher>Hesperus Press Limited</publisher>
+                  <biblScope unit="page" from="12" to="13"/>
+               </bibl>
+               <bibl xml:id="theDocksOfLondonBibl">
+                  <title> The Docks of London </title>
+                  <author>Virginia Woolf</author>
+                  <date when="1931-12">December 1931</date>
+                  <publisher>Good Housekeeping</publisher>
+                  <biblScope unit="volume">20</biblScope>.
+                  <biblScope unit="issue">4</biblScope>
+               </bibl>
+               <bibl xml:id="greatMensHousesBibl">
+                  <title> Great Men’s Houses </title>
+                  <author>Virginia Woolf</author>
+                  <date when="1932-03">March 1932</date>
+                  <publisher>Good Housekeeping</publisher>
+                  <biblScope unit="volume">21</biblScope>.
+                  <biblScope unit="issue">1</biblScope>
+               </bibl>
+               <bibl xml:id="abbeysAndCathedralsBibl">
+                  <title> Abbeys and Cathedrals </title>
+                  <author>Virginia Woolf</author>
+                  <date when="1932-05">May 1932</date>
+                  <publisher>Good Housekeeping</publisher>
+                  <biblScope unit="volume">21</biblScope>.
+                  <biblScope unit="issue">3</biblScope>
+               </bibl>
+               <bibl xml:id="thisIstheHouseofCommonsBibl">
+                  <title> This Is the House of Commons </title>
+                  <author>Virginia Woolf</author>
+                  <date when="1932-10">October 1932</date>
+                  <publisher>Good Housekeeping</publisher>
+                  <biblScope unit="volume">22</biblScope>.
+                  <biblScope unit="issue">2</biblScope>
+               </bibl>
+               <bibl xml:id="portraitOfALondonerBibl">
+                  <title> Portrait of a Londoner </title>
+                  <author>Virginia Woolf</author>
+                  <date when="1932-12">December 1932</date>
+                  <publisher>Good Housekeeping</publisher>
+                  <biblScope unit="volume">22</biblScope>.
+                  <biblScope unit="issue">4</biblScope>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <group>
+
+         <!-- First sketch -->
+
+         <text xml:id="carlylesHouse">
+            <body>
+               <head>
+                  <bibl>
+                     <author>Virginia Woolf</author>
+                     <date when="1909-02">February 1909</date>
+                     <publisher>Hesperus Press Limited</publisher>
+                     <biblScope unit="page" from="3" to="4"/>
+                  </bibl>
+                  <title> Carlyle's House </title>
+               </head>
+               <p>The bus took me too far. I found myself beyond the embankment, saw brown sails at the end of a timber yard. This was how it looked 50 years ago. I suppose. This was how it looked to the Carlyles: but their Row has stucco pillars now, and the fields are stamped out by great municipal buildings of grey brick. I imagine that Carlyle tramped off into muddy lanes, and really got a salt breath from the river. almost at his door. So Chelsea must have been a spacious quarter: with distinct rows of little eighteenth century houses. separated by fields, and with mud banks, and shoals of little boats drawn up on them, running along the river. Mrs Carlyle still speaks of going down to Westminster 'by water'. </p>
+               <p>But Cheyne Row is spoilt; awl Carlyle's house already has the look of something forcibly preserved; it is incongruous now. set between respectable family mansions.</p>
+               <p>I went in, and a woman speaking broad Scotch showed me over. Why does one do these things? I don't know what I expected to find - something at any rate less cold, and formal. </p>
+               <p>There were glass cases with specimens of handwriting in the middle of the rooms; otherwise they were bare enough. There were portraits of Mrs Carlyle which seemed to look out quizzically upon the strangers as though she asked what they really found to look at: did they think that her house and her had been like that? Would she have tolerated them for a second?</p>
+               <p>Her eyes droop in the pictures, and have a peculiar expression, of humour and melancholy lying dormant, which produces this quizzical look that I speak of; at any moment they might flash with passion, or kindle into tenderness. I think that in her life the expression must have been one of mockery for the most part, with a background of pathos; an unhappy face in spite of the brilliant eyes; the late photo-graphs, which exaggerate the hollow of the cheeks, and the length of the upper lip, are horrid. The eyes are the only parts with warmth or depth in them; the rest is granulated skin tight stretched over a skull.</p>
+               <p>The house is light and spacious; but a silent place, which it needs much imagination to set alive again - one must show it with all her bright little ‘contrivances’; and see, somehow, his long gaunt figure, leaning or lying back, pipe in hand; and hear bursts of talk, all in the Scotch accent; and the deep guffaw. Mrs Carlyle, I suppose, sat upright, but very fragile, amused. but critical too - telling her day's narrative, and hitting off some 'admirer' in a phrase or so.</p>
+               <p>Did one always feel a coldness between them? The only connection the flash of the intellect. I imagine so.</p>
+               <p>The most natural thing was the garden, with its flags. and the stump of a tree.</p>
+            </body>
+         </text>
+
+         <!-- Second sketch -->
+
+         <text xml:id="missReeves">
+            <body>
+               <head>
+                  <bibl>
+                     <author>Virginia Woolf</author>
+                     <date when="1909-02">February 1909</date>
+                     <publisher>Hesperus Press Limited</publisher>
+                     <biblScope unit="page" from="5" to="5"/>
+                  </bibl>
+                  <title> Miss Reeves</title>
+               </head>
+               <p>I met her at dinner last night. She has dark hair, an oval face, with a singularly small mouth: a line is pencilled on her upper lip. She reminds me of the girl whose mother was a snake. There is something of the snake in her. Her eyes are not large, but very bright, hazel colour. She always leans forward, as though to take flight; her whole figure and pose indicating an ardent interested spirit. When she is silent, she thinks – her eyes intent on one spot. But she talks almost incessantly, launching herself with the greatest ease - but says nothing commonplace. Her talk at once flies to social questions; is not dry exposition, but very lucid and vigorous explanation. 'We think...', 'we find" and so on; as though she spoke for the thinking part of the nation. Her vigour struck me most - and the fact that she was not pedantic.</p>
+               <p>I imagine that her taste and insight are not fine; when she described people she ran into stock phrases, and took rather a cheap view. She seemed determined to be human also; to like people, even though they were stupid.</p>
+               <p>Her concentration upon one view of life, and her interest in it, seemed to me the most remarkable things about her; with that energy one might get much done, even though one's capacity were not of the finest. She lacks mystery; and the charm people have who withdraw, and don't care to coin their views. One figures her always in flight; so much determined to embrace everything that she fails.</p>
+            </body>
+         </text>
+
+         <!-- Third sketch -->
+
+         <text xml:id="hampstead">
+            <body>
+               <head>
+                  <bibl>
+                     <author>Virginia Woolf</author>
+                     <date when="1909-03">March 1909</date>
+                     <publisher>Hesperus Press Limited</publisher>
+                     <biblScope unit="page" from="10" to="11"/>
+                  </bibl>
+                  <title> Hampstead </title>
+               </head>
+               <p>Hampstead is always refreshing. Even on a muddy night there is still some charm; it is so small and quiet. The mud is the mud of country lanes; and the houses, when the lamps flash upon them, are of old red brick, and are sheltered by trees. The Misses Case live on the ridge of the hill, and have a view beneath them on a fine day. Their house is not old, but it has a look of Hampstead; there is something fresh about their furniture, as though the air out here did not stain it. For the rest, the rooms a little shabby; with one or two beautiful pieces of old furniture, and much crockery, such as cultivated and frugal ladies buy, during their summer holidays, in the north of France. The ladies themselves are of a piece with the house; one of them, that is, is pale and fresh, and rather shabby, like the furniture, and the other seems to represent the fine and rather austere intellect, tempered by suburban residence, which has filled the rooms with solid works and her Greek archaeology, and hung the walls with photographs from old masters. The look of them is very valiant, humane, and perhaps a little too amiable to be consistent with the very keenest edge of intellect. Both ladies are well over forty.</p>
+               <p> But there was also another guest, Miss Margaret Davies': and the three together made an harmonious picture. Miss Davies comes of a sterner stock. Her features are sharper, her eyes burn brighter; once she must have had something of the beauty of a delicate Greek head. Now, being also past forty years of age, she has the same look of having passed a strenuous life in toil of some kind for others. Women who have worked but have not married come to have a particular look; refinement, without sex; tending to be austere. Miss Davies, it is clear, has far less tolerance than her friends; and has done what she has done through the force of conviction. She has organised a great co-operative movement in the North. Her eyes have a way of growing dark, as though clouds crossed them, when she is in earnest. I imagine that she might be stern and even bigoted; but that she is also fervent to uphold her lofty views, and has a mind like one of those flint coloured gems upon which the heads of Roman emperors arc cut, indelibly. </p>
+               <p>When three such women meet, however, they generally surprise me by their likeness to schoolgirls. They were at college together, and they like to recall the attitude which was theirs then; they tell humorous and affectionate stories about each other; have the familiarity of a loose, well worn glove. At the same time they drop easily into what I suppose is their shop; they describe the last problem play; they discuss the last development in the fight for the franchise. It is all admirably sane, altruistic, and competent; save for a certain sharpness of edge, it might be the talk of capable members of parliament. I was struck by the conviction with which they spoke; a conviction that justice ought to be done, not to them or their children, but to the whole of womankind. Miss Case tends to be less abstract than Miss Davies, I think; and to have a human being before her always, and not a principle.</p>
+            </body>
+         </text>
+
+         <!-- Forth sketch -->
+
+         <text xml:id="aModernSalon">
+            <body>
+               <head>
+                  <bibl>
+                     <author>Virginia Woolf</author>
+                     <date when="1909-03">March 1909</date>
+                     <publisher>Hesperus Press Limited</publisher>
+                     <biblScope unit="page" from="12" to="13"/>
+                  </bibl>
+                  <title> A Modern Salon </title>
+               </head>
+               <p>One reads and hears much of the great French salons; and pronounces them always extinct as dodos, although what it is that is extinct, I do not know. It struck me last night, dining with the Morells, that the effort was certainly in that direction, and if it failed, one would be able to see why. Lady Ottoline has a definite end in view; she is a great lady who has become discontented with her own class, and has found what she wanted in the class of artists, writers and professional people. For this reason, she approaches them in a definite way; the only thing they have in common is a love of the arts. In return, they see her not as the aristocrat who is shut off from them although they may for a moment come into contact with her, but as a disembodied spirit escaping from her world into a purer air, where she can never take root. </p>
+               <p>This gives their intercourse a kind of lustre and illusion; they are always conscious that she comes from a distance, with strange colours upon her; and she, that these humbler creatures have yet a vision of the divine.</p>
+               <p>Her parties have always a certain romance and distinction from the presence of this incongruity. But when one has said that she has this taste for art and artists, one is puzzled to define her gifts any further. Perhaps that says all that there is to be said. At any rate, she seems to devote all her energies to the task, and to be consistently in the same attitude. </p>
+               <p>Like other people who are passive rather than active, she is very careful and elaborate in her surroundings. It seems that they too play a part.</p>
+               <p>She is remarkable if not beautiful in her person. She takes the utmost pains to set off her beauty, as though it were a rare object, picked up, with the eye of a connoisseur, in some dusky Florentine back street. It always seems possible that the rich American connoisseurs, who finger her Persian wrapper, and pronounce it -very good', should go on to criticise her face; 'a fine work - late renaissance, presumably; what model-ling in the eyes and brow! - but the chin unfortunately is in the weaker style.'</p>
+               <p>She is curiously passive, even in her expression; and the pallor of her cheeks, the clean cutting of her features, the way she draws her head back and looks at you blankly give her the appearance of a cast from some marble Medusa.</p>
+            </body>
+         </text>
+
+         <!-- First essay -->
+
+         <text xml:id="theDocksOfLondon">
+            <body>
+               <head>
+                  <bibl>
+                     <author>Virginia Woolf</author>
+                     <date when="1931-12">December 1931</date>
+                     <publisher>Good Housekeeping</publisher>
+                     <biblScope unit="volume">20</biblScope>.
+                     <biblScope unit="issue">4</biblScope>
+                  </bibl>
+                  <title> The Docks of London </title>
+               </head>
+               <p> “Whither, O splendid <name type="object">ship</name>” the <name type="person" role="male">poet</name> asked as he lay on the shore and watched the great sailing ship pass away on the horizon. Perhaps, as he imagined, it was making for some port in the Pacific; but one day almost certainly it must have heard an irresistible call and come past the North Foreland and the Reculvers, and entered the narrow waters of the Port of London, sailed past the low banks of Gravesend and Northfleet and Tilbury, up Erith Reach and Barking Reach and Gallion’s Reach, past the gas works and the sewage works till it found, for all the world like a car on a parking ground, a space reserved for it in the deep waters of the Docks. There it furled its sails and dropped anchor.</p>
+               <p> However romantic and free and fitful they may seem, there is scarcely a ship on the seas that does not come to anchor in the Port of London in time. From a launch in midstream one can see them swimming up the river with all the marks of their voyage still on them. Liners come, high-decked, with their galleries and their awnings and their passengers grasping their bags and leaning over the rail, while the lascars tumble and scurry below—home they come, a thousand of these big ships every week of the year to anchor in the docks of London. They take their way majestically through a crowd of tramp steamers, and colliers and barges heaped with coal and swaying red sailed boats, which, amateurish though they look, are bringing bricks from Harwich or cement from Colchester—for all is business; there are no pleasure boats on this river. Drawn by some irresistible current, they come from the storms and calms of the sea, its silence and loneliness to their allotted anchorage.</p>
+               <p> The engines stop; the sails are furled; and suddenly the gaudy funnels and the tall masts show up incongruously against a row of workmen’s houses, against the black walls of huge warehouses. A curious change takes place. They have no longer the proper perspective of sea and sky behind them, and no longer the proper space in which to stretch their limbs. They lie captive, like soaring and winged creatures who have got themselves caught by the leg and lie tethered on dry land.</p>
+               <p> With the sea blowing its salt into our nostrils, nothing can be more stimulating than to watch the ships coming up the Thames—the big ships and the little ships, the battered and the splendid, ships from India, from Russia, from South America, ships from Australia coming from silence and danger and loneliness past us, home to harbour. But once they drop anchor, once the cranes begin their dipping and their swinging, it seems as if all romance were over. If we turn and go past the anchored ships towards London, we see surely the most dismal prospect in the world. The banks of the river are lined with dingy, decrepit-looking warehouses.</p>
+            </body>
+         </text>
+
+         <!-- Second essay -->
+
+         <text xml:id="oxfordStreetTides">
+            <body>
+               <head>
+                  <bibl>
+                     <author>Virginia Woolf</author>
+                     <date when="1932-01">January 1932</date>
+                     <publisher>Good Housekeeping</publisher>
+                     <biblScope unit="volume">20</biblScope>.
+                     <biblScope unit="issue">5</biblScope>
+                  </bibl>
+                  <title> Oxford Street Tides </title>
+               </head>
+               <p> Down in the docks one sees things in their crudity, their bulk, their enormity.  Here in Oxford Street they have been refined and transformed. The huge barrels of damp tobacco have been rolled into innumerable neat cigarettes laid in silver paper. The corpulent bales of wool have been spun into thin vests and soft stockings. The grease of sheep’s thick wool has become scented cream for delicate skins. And those who buy and those who sell have suffered the same city change.  Tripping, mincing, in black coats, in satin dresses, the human form has adapted itself no less than the animal product. Instead of hauling and heaving, it deftly opens drawers, rolls out silk on counters, measures and snips with yardsticks and scissors.  </p>
+               <p> Oxford Street, it goes without saying, is not London’s most distinguished thoroughfare. Moralists have been known to point the finger of scorn at those who buy there, and they have the support of the dandies. Fashion has secret crannies off Hanover Square, round about Bond Street, to which it withdraws discreetly to perform its more sublime rites. In Oxford Street there are too many bargains, too many sales, too many goods marked down to one and eleven three that only last week cost two and six. The buying and selling is too blatant and raucous. But as one saunters towards the sunset –and what with artificial light and mounds of silk and gleaming omnibuses, a perpetual sunset seems to brood over the Marble Arch– the garishness and gaudiness of the great rolling ribbon of Oxford Street has its fascination. It is like the pebbly bed of a river whose stones are forever washed by a bright stream. Everything glitters and twinkles. The first spring day brings out barrows frilled with tulips, violets, daffodils in brilliant layers. The frail vessels eddy vaguely across the stream of the traffic. At one corner seedy magicians are making slips of coloured paper expand in magic tumblers into bristling forests of splendidly tinted flora – a subaqueous flower garden. At another, tortoises repose on litters of grass. The slowest and most contemplative of creatures display their mild activities on a foot or two of pavement, jealously guarded from passing feet. One infers that the desire of man for the tortoise, like the desire of the moth for the star, is a constant element in human nature. Nevertheless, to see a woman stop and add a tortoise to her string of parcels is perhaps the rarest sight that human eyes can look upon.</p>
+               <p> Taking all this into account – the auctions, the barrows, the cheapness, the glitter –it cannot be said that the character of Oxford Street is refined. It is a breeding ground, a forcing house of sensation. The pavement seems to sprout horrid tragedies; the divorces of actresses, the suicides of millionaires occur here with a frequency that is unknown in the more austere pavements of the residential districts. News changes quicker than in any other part of London. The press of people passing seems to lick the ink off the placards and to consume more of them and to demand fresh supplies of later editions faster than elsewhere. </p>
+            </body>
+         </text>
+
+         <!-- Third essay -->
+
+         <text xml:id="greatMensHouses">
+            <body>
+               <head>
+                  <bibl>
+                     <author>Virginia Woolf</author>
+                     <date when="1932-03">March 1932</date>
+                     <publisher>Good Housekeeping</publisher>
+                     <biblScope unit="volume">21</biblScope>.
+                     <biblScope unit="issue">1</biblScope>
+                  </bibl>
+                  <title> Great Men’s Houses </title>
+               </head>
+               <p> London, happily, is becoming full of great men’s houses, bought for the nation and preserved entire with the chairs they sat on and the cups they drank from, their umbrellas and their chests of drawers. And it is no frivolous curiosity that sends us to Dickens’s house and Johnson’s house and Carlyle’s house and Keats’s house.  We know them from their houses – it would seem to be a fact that writers stamp themselves upon their possessions more indelibly than other people. Of artistic taste they may have none; but they seem always to possess a much rarer and more interesting gift – a faculty for housing themselves appropriately, for making the table, the chair, the curtain, the carpet into their own image.</p>
+               <p> Take the Carlyles, for instance. One hour spent in 5 Cheyne Row will tell us more about them and their lives than we can learn from all the biographies. Go down into the kitchen. There, in two seconds, one is made acquainted with a fact that escaped the attention of Froude, and yet was of incalculable importance – they had no water laid on. Every drop that the Carlyles used – and they were Scots, fanatical in their cleanliness – had to be pumped by hand from a well in the kitchen. There is the well at this moment and the pump and the stone trough into which the cold water trickled. And here, too, is the wide and wasteful old grate upon which all kettles had to be boiled if they wanted a hot bath; and here is the cracked yellow tin bath, so deep and so narrow, which had to be filled with the cans of hot water that the maid first pumped and then boiled and then carried up three flights of stairs from the basement.</p>
+               <p> The high old house without water, without electric light, without gas fires, full of books and coal smoke and four-poster beds and mahogany cupboards, where two of the most nervous and exacting people of their time lived, year in year out, was served by one unfortunate maid. All through the mid-Victorian age the house was necessarily a battlefield where daily, summer and winter, mistress and maid fought against dirt and cold for cleanliness and warmth. The stairs, carved as they are and wide and dignified, seem worn by the feet of harassed women carrying tin cans. The high panelled rooms seem to echo with the sound of pumping and the swish of scrubbing. The voice of the house – and all houses have voices – is the voice of pumping and scrubbing, of coughing and groaning. Up in the attic under a skylight Carlyle groaned, as he wrestled with his history, on a horsehair chair, while a yellow shaft of London light fell upon his papers and the rattle of a barrel organ and the raucous shouts of street hawkers came through walls whose double thickness distorted but by no means excluded the sound. And the season of the house – for every house has its season – seems to be always the month of February, when cold and fog are in the street and torches flare and the rattle of wheels grows suddenly loud and dies away. </p>
+            </body>
+         </text>
+
+         <!-- Forth essay -->
+
+         <text xml:id="abbeysAndCathedrals">
+            <body>
+               <head>
+                  <bibl>
+                     <author>Virginia Woolf</author>
+                     <date when="1932-05">May 1932</date>
+                     <publisher>Good Housekeeping</publisher>
+                     <biblScope unit="volume">21</biblScope>.
+                     <biblScope unit="issue">3</biblScope>
+                  </bibl>
+                  <title> Abbeys and Cathedrals </title>
+               </head>
+               <p> It is a commonplace, but we cannot help repeating it, that St Paul’s dominates London. It swells like a great grey bubble from a distance; it looms over us, huge and menacing, as we approach. But suddenly St Paul’s vanishes. And behind St Paul’s, beneath St Paul’s, round St Paul’s when we cannot see St Paul’s, how London has shrunk! Once there were colleges and quadrangles and monasteries with fishponds and cloisters; and sheep grazing on the greensward; and inns where great poets stretched their legs and talked at their ease. Now all this space has shrivelled. The fields are gone and the fish ponds and the cloisters; even men and women seem to have shrunk and become multitudinous and minute instead of single and substantial. Where Shakespeare and Jonson once fronted each other and had their talk out, a million Mr Smiths and Miss Browns scuttle and hurry, swing off omnibuses, dive into tubes. They seem too many, too minute, too like each other to have each a name, a character, a separate life of their own. </p>
+               <p> If we leave the <name type="place" subtype="outer">street</name> and step into a <name type="place" subtype="outer">city <name type="place" role="building">church</name>
+               </name>, the space that the dead enjoy compared with what the living now enjoy, is brought home to us. In the year 1737 a man called Howard died and was buried in St Mary-le-Bow. A whole wall is covered with the list of his virtues. ‘He was blessed with a sound and intelligent mind which shone forth conspicuously in the habitual exercise of great and godlike virtues…. In the midst of a profligate age he was inviolably attached to justice, sincerity and truth.’ He occupies space that might serve almost for an office and demand a rent of many hundreds a year. In our day a man of equal obscurity would be allotted one slice of white stone of the regulation size among a thousand others and his great and godlike virtues would have to go unrecorded. Again, in St Maryle-Bow all posterity is asked to pause and rejoice that Mrs Mary Lloyd ‘closed an exemplary and spotless life’ without suffering and indeed without regaining consciousness, aged 79 years. </p>
+            <p> Pause, reflect, admire, take heed of your ways –so these ancient tablets are always advising and exhorting us. One leaves the church marvelling at the spacious days when unknown citizens could occupy so much room with their bones and confidently request so much attention for their virtues when we – behold how we jostle and skip and circumvent each other in the street, how sharply we cut corners, how nimbly we skip beneath motor cars. The mere process of keeping alive needs all our energy. We have no time, we were about to say, to think about life or death either, when suddenly we run against the enormous walls of St Paul’s. Here it is again, looming over us, mountainous, immense, greyer, colder, quieter than before. And directly we enter we undergo that pause and expansion and release from hurry and effort which it is in the power of St Paul’s, more than any other building in the world, to bestow.</p>
+         </body>
+      </text>
+
+      <!-- Fifth essay -->
+
+      <text xml:id="thisIsTheHouseOfCommons">
+         <body>
+            <head>
+               <bibl>
+                  <author>Virginia Woolf</author>
+                  <date when="1932-10">October 1932</date>
+                  <publisher>Good Housekeeping</publisher>
+                  <biblScope unit="volume">22</biblScope>.
+                  <biblScope unit="issue">2</biblScope>
+               </bibl>
+               <title> This Is the House of Commons </title>
+            </head>
+            <p> Outside the House of Commons stand the statues of great statesmen, black and sleek and shiny as sea lions that have just risen from the water. And inside the Houses of Parliament, in those windy, echoing halls, where people are for ever passing and repassing, taking green cards from policemen, asking questions, staring, accosting members, trooping at the heels of schoolmasters, nodding and laughing and running messages and hurrying through swing doors with papers and attaché cases and all the other emblems of business and haste – here, too, are statues – Gladstone, Granville, Lord John Russell – white statues, gazing from white eyes at the old scenes of stir and bustle in which, not so very long ago, they played their part. </p>
+            <p> There is nothing venerable or time-worn, or musical, or ceremonious here. A raucous voice bawling ‘The Speaker!’ heralds the tramp of a plain democratic procession whose only pomp is provided by the mace and the Speaker’s wig and gown and gold badges of the head waiters. The raucous voice bawls again, ‘Hats off, Strangers!’ upon which a number of dingy felt hats are flourished obediently and the head waiters bow from the middle downwards. That is all. And yet the bawling voice, the black gown, the tramp of feet on the stone, the mace and the dingy felt hats somehow suggest, better than scarlet and trumpets, that the Commons are taking their seats in their own House to proceed with the business of governing their own country. Vague though our history may be, we somehow feel that we common people won this right centuries ago, and have held it for centuries past, and the mace is our mace and the Speaker is our speaker and we have no need of trumpeters and gold and scarlet to usher our representative into our own House of Commons. </p>
+            <p> Certainly our own House of Commons from inside is not in the least noble or majestic or even dignified. It is as shiny and as ugly as any other moderate-sized public hall. The oak, of course, is grained yellow. The windows, of course, are painted with ugly coats of arms. The floor, of course, is laid with strips of red matting. The benches, of course, are covered with serviceable leather. Wherever one looks one says, ‘of course’. It is an untidy, informal-looking assembly. Sheets of white paper seem to be always fluttering to the floor. People are always coming in and out incessantly. Men are whispering and gossiping and cracking jokes over each other’s shoulders. The swing doors are perpetually swinging. Even the central island of control and dignity where the Speaker sits under his canopy, is a perching ground for casual members who seem to be taking a peep at the proceedings at their ease. Legs rest on the edge of the table where the mace lies suspended; and the secrets which repose in the two brass-bound chests on either side of the table are not immune from the prod of an occasional toe. </p>
+         </body>
+      </text>
+
+      <!-- Sixth essay -->
+
+      <text xml:id="portraitOfALondoner">
+         <body>
+            <head>
+               <bibl>
+                  <author>Virginia Woolf</author>
+                  <date when="1932-12">December 1932</date>
+                  <publisher>Good Housekeeping</publisher>
+                  <biblScope unit="volume">22</biblScope>.
+                  <biblScope unit="issue">4</biblScope>
+               </bibl>
+               <title> Portrait of a Londoner </title>
+            </head>
+            <p> Nobody can be said to know London who does not know one true Cockney – who cannot turn down a side street, away from the shops and the theatres, and knock at a private door in a street of private houses. </p>
+            <p> Private houses in London are apt to be much of a muchness. The door opens on a dark hall; from the dark hall rises a narrow staircase; off the landing opens a double drawing-room, and in this double drawing-room are two sofas on each side of a blazing fire, six armchairs, and three long windows giving upon the street What happens in the back half of the drawing-room which looks upon the gardens of other houses is often a matter of considerable conjecture. But it is with the front drawing-room that we are here concerned; for Mrs Crowe always sat there in an armchair by the fire; it was there that she had her being; it was there that she poured out tea.</p>
+            <p> That she was born in the country seems, though strange, to be a fact: that she sometimes left London, in those summer weeks when London ceases to be London, is also true. But where she went or what she did when she was out of London, when her chair was empty, her fire unlit and her table unlaid, nobody knew or could imagine. To figure Mrs Crowe in her black dress and her veil and her cap, walking in a field among turnips or climbing a hill where cows were grazing, is be- yond the scope of the wildest imagination. </p>
+            <p> There by the fire in winter, by the window in summer, she had sat for sixty years – but not alone. There was always someone in the armchair opposite, paying a call. And before the first caller had been seated ten minutes the door always opened, and the maid Maria, she of the prominent eyes and prominent teeth, who had opened the door for sixty years, opened it once more and announced a second visitor; and then a third, and then a fourth. </p>
+            <p> A tête-à-tête with Mrs Crowe was unknown. She disliked tête-à-têtes. It was part of a peculiarity that she shared with many hostesses that she was never specially intimate with anyone. For example, there was always an elderly man in the corner by the cabinet – who seemed, indeed, as much a part of that admirable piece of eighteenth-century furniture as its own brass claws. But he was always addressed as Mr Graham – never John, never William: though sometimes she would call him ‘dear Mr Graham’ as if to mark the fact that she had known him for sixty years.</p>
+            <p> The truth was she did not want intimacy; she wanted conversation. Intimacy has a way of breeding silence, and silence she abhorred. There must be talk, and it must be general, and it must be about everything. It must not go too deep, and it must not be too clever, for if it went too far in either of these directions somebody was sure to feel out of it, and to sit balancing his tea-cup, saying nothing.</p>
+         </body>
+      </text>
+   </group>
+</text>
+</TEI>
